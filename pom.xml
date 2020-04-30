@@ -13,6 +13,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.9</jdk.version>
+		<user.name>Sairam Prasad</user.name>
 	</properties>
 
 	<dependencies>
@@ -62,6 +63,9 @@
 					  <manifest>
 						<mainClass>com.restCountriesApi.ApiTester.App</mainClass>
 					  </manifest>
+					<manifestEntries>
+              					<Built-By>${user.name}</Built-By>
+            				</manifestEntries>
 					</archive>
 
 				</configuration>
